@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>starbucks landing page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+         <a href="#"class="logo"><img src="logo.png.png" alt=""></a>
+         <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">What's New</a></li>
+            <li><a href="#">contact</a></li>
+         </ul>
+        </header>
+        <div class="content">
+            <div class="TextBox">
+                <h2>it's not just coffee<br>it's <span>starbucks</span></h2>
+                <p>Coffee is a beverage prepared from roasted coffee beans. It's also a plant (Coffea) and the name of the drink that is made from this plant. The coffee plant is a bush or tree that can grow up to ten meters (about 32 feet) high, but is usually cut shorter. Coffee plants originally grew in Ethiopia, and now also grow in South America, Central America and Southeast Asia. They are an important crop for the economies of many countries.ZZ
+                    The drink is made from the seeds of the coffee plant, called coffee beans. Coffee is usually served hot, and is a popular drink in many countries. Coffee contains a chemical called caffeine, a mild drug that keeps people awake.
+                    <a href="learn more"</a>
+                    </p>
+
+            </div>
+        </div>
+        <div class="imgBox">
+        <img src="img1.png" alt="" class="starbucks">
+        </div>
+        <ul class="thumb">
+            <li><img src="thumb1.png" onclick="imgSlider('img1.png')"</li>
+            <li><img src="thumb3.png" onclick="imgSlider('img2.png')"</li>
+            <li><img src="thumb3.png" onclick="imgSlider('img3.png')"</li>
+            </ul>
+            <ul class="sci">
+            <li><a href="#"><img src="facebook.png"</a></li>
+            <li><a href="#"><img src="instagram.png"</a></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.starbucks').src = anything;
+        }
+    </script>
+</body>
+</html>
